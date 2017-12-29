@@ -1,4 +1,4 @@
-const SiteController = {};
+let SiteController = {};
 
  SiteController.Index = function(req, resp) {
    resp.render('site/index');
