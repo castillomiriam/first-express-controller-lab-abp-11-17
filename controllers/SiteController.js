@@ -1,14 +1,13 @@
-const SiteController{
- 
- static Index(req, resp){
+const SiteController = {};
+
+ SiteController.Index(req, resp){
      resp.render('site/index');
    }
- static About(req, resp){
+ SiteController.About(req, resp){
      resp.render('site/about');
    }
- static Contact(req, resp){
+ SiteController.Contact(req, resp){
      resp.render('site/contact');
    }
- 
- }
- module.exports=SiteController;
+
+ module.exports = SiteController;
